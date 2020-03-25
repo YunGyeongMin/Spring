@@ -5,9 +5,9 @@
 	<meta charset="UTF-8">
 	<title>게시판</title>
 	<link rel="shortcut icon" type="image/x-icon" href="http://gdj21.gudi.kr/images/icon_goodee.png">
-	<link rel="stylesheet" href="/resources/css/notice.css">
+	<link rel="stylesheet" href="resources/css/notice.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-	<script type="text/javascript" src="/resources/js/notice.js"></script>
+	<script type="text/javascript" src="resources/js/notice.js"></script>
 </head>
 <body>
 	<form id="login">
