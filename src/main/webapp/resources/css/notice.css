@@ -1,0 +1,24 @@
+@charset "UTF-8";
+html, body {margin: 0; padding: 0; text-align: center;}
+button {cursor: pointer;}
+.disNone {display: none;}
+.active {background-color: #daf1e1;}
+
+/* login */
+form#login {margin-top: calc(50vh - 180px);}
+form#login p {width: 300px; display: inline-block; margin: 5px calc(50% - 150px);}
+form#login p label {width: 50px; text-align: left; display: inline-block; float: left;}
+form#login p input[type=text], form p input[type=password] {width: 250px; float: left; box-sizing: border-box;}
+form#login p input[type=submit] {width: 100%; box-sizing: border-box; cursor: pointer;}
+
+/* main */
+div#msg, div#list {width: 600px; margin: 50px calc(50vw - 300px);}
+div#msg form, div#list table {width: 100%;}
+
+div#msg p:after {content: ""; display: table; clear: both;}
+div#msg p label {width: 50px; text-align: left; display: inline-block; float: left;}
+div#msg p input[type=text], div#msg p textarea {width: 550px; float: left; box-sizing: border-box;}
+div#msg p input[type=submit], div#msg p input[type=button] {width: calc(50% - 10px); margin: 0 5px; box-sizing: border-box; cursor: pointer;}
+
+div#list table thead {background-color: #fba504;}
+div#list table tbody tr:hover {background-color: #daf1e1; cursor: pointer;}
