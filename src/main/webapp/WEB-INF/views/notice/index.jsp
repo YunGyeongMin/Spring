@@ -11,7 +11,7 @@
 </head>
 <body>
 	<form id="login">
-		<h1>로그인 화면</h1>
+		<h1>로그인</h1>
 		<p>
 			<label for="id">ID</label>
 			<input type="text" name="id" id="id" placeholder="아이디를 입력하세요." required="required">
